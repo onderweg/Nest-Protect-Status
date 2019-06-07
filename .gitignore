@@ -1,2 +1,5 @@
-## User settings
+# User settings
 xcuserdata/
+
+# OS
+.DS_Store
