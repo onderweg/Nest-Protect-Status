@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FC088FD22A6FA7800D5E382 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC088FC22A6FA7800D5E382 /* Extensions.swift */; };
+		6FC0890022A8572D00D5E382 /* NestStatusViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC088FE22A8572D00D5E382 /* NestStatusViewItem.swift */; };
+		6FC0890122A8572D00D5E382 /* NestStatusViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC088FF22A8572D00D5E382 /* NestStatusViewItem.xib */; };
+		808DBD6122A4EDAE0042ECEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808DBD6022A4EDAE0042ECEB /* AppDelegate.swift */; };
+		808DBD6322A4EDAE0042ECEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808DBD6222A4EDAE0042ECEB /* ViewController.swift */; };
+		808DBD6522A4EDB00042ECEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808DBD6422A4EDB00042ECEB /* Assets.xcassets */; };
+		808DBD6822A4EDB00042ECEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808DBD6622A4EDB00042ECEB /* Main.storyboard */; };
+		808DBD7422A4EDB00042ECEB /* Nest_Protect_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808DBD7322A4EDB00042ECEB /* Nest_Protect_StatusTests.swift */; };
+		808DBD7F22A4EE3C0042ECEB /* NestStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808DBD7E22A4EE3C0042ECEB /* NestStatusView.swift */; };
+		80D3678422A63A1B003CD4B0 /* NestApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3678322A63A1B003CD4B0 /* NestApiClient.swift */; };
+		80E0B59422A8E800000E90C8 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0B59322A8E800000E90C8 /* Alerts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808DBD7022A4EDB00042ECEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808DBD5522A4EDAE0042ECEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808DBD5C22A4EDAE0042ECEB;
+			remoteInfo = "Nest Protect Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FC088FC22A6FA7800D5E382 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6FC088FE22A8572D00D5E382 /* NestStatusViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestStatusViewItem.swift; sourceTree = "<group>"; };
+		6FC088FF22A8572D00D5E382 /* NestStatusViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestStatusViewItem.xib; sourceTree = "<group>"; };
+		808DBD5D22A4EDAE0042ECEB /* Nest Protect Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nest Protect Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808DBD6022A4EDAE0042ECEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		808DBD6222A4EDAE0042ECEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		808DBD6422A4EDB00042ECEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808DBD6722A4EDB00042ECEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		808DBD6922A4EDB00042ECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808DBD6A22A4EDB00042ECEB /* Nest_Protect_Status.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nest_Protect_Status.entitlements; sourceTree = "<group>"; };
+		808DBD6F22A4EDB00042ECEB /* Nest Protect StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nest Protect StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808DBD7322A4EDB00042ECEB /* Nest_Protect_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest_Protect_StatusTests.swift; sourceTree = "<group>"; };
+		808DBD7522A4EDB00042ECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808DBD7E22A4EE3C0042ECEB /* NestStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestStatusView.swift; sourceTree = "<group>"; };
+		80D3678322A63A1B003CD4B0 /* NestApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestApiClient.swift; sourceTree = "<group>"; };
+		80D3678522A640D3003CD4B0 /* Nest Protect Status.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nest Protect Status.entitlements"; sourceTree = "<group>"; };
+		80E0B59022A8DEEB000E90C8 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		80E0B59322A8E800000E90C8 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808DBD5A22A4EDAE0042ECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808DBD6C22A4EDB00042ECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808DBD5422A4EDAE0042ECEB = {
+			isa = PBXGroup;
+			children = (
+				80E0B59022A8DEEB000E90C8 /* readme.md */,
+				808DBD5F22A4EDAE0042ECEB /* Nest Protect Status */,
+				808DBD7222A4EDB00042ECEB /* Nest Protect StatusTests */,
+				808DBD5E22A4EDAE0042ECEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808DBD5E22A4EDAE0042ECEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808DBD5D22A4EDAE0042ECEB /* Nest Protect Status.app */,
+				808DBD6F22A4EDB00042ECEB /* Nest Protect StatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808DBD5F22A4EDAE0042ECEB /* Nest Protect Status */ = {
+			isa = PBXGroup;
+			children = (
+				80E0B59222A8E3C1000E90C8 /* Utilities */,
+				80E0B59122A8E33C000E90C8 /* View */,
+				80D3678522A640D3003CD4B0 /* Nest Protect Status.entitlements */,
+				808DBD6022A4EDAE0042ECEB /* AppDelegate.swift */,
+				808DBD6222A4EDAE0042ECEB /* ViewController.swift */,
+				808DBD6422A4EDB00042ECEB /* Assets.xcassets */,
+				808DBD6622A4EDB00042ECEB /* Main.storyboard */,
+				808DBD6922A4EDB00042ECEB /* Info.plist */,
+				808DBD6A22A4EDB00042ECEB /* Nest_Protect_Status.entitlements */,
+				80D3678322A63A1B003CD4B0 /* NestApiClient.swift */,
+				6FC088FF22A8572D00D5E382 /* NestStatusViewItem.xib */,
+			);
+			path = "Nest Protect Status";
+			sourceTree = "<group>";
+		};
+		808DBD7222A4EDB00042ECEB /* Nest Protect StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				808DBD7322A4EDB00042ECEB /* Nest_Protect_StatusTests.swift */,
+				808DBD7522A4EDB00042ECEB /* Info.plist */,
+			);
+			path = "Nest Protect StatusTests";
+			sourceTree = "<group>";
+		};
+		80E0B59122A8E33C000E90C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				808DBD7E22A4EE3C0042ECEB /* NestStatusView.swift */,
+				6FC088FE22A8572D00D5E382 /* NestStatusViewItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80E0B59222A8E3C1000E90C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6FC088FC22A6FA7800D5E382 /* Extensions.swift */,
+				80E0B59322A8E800000E90C8 /* Alerts.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808DBD5C22A4EDAE0042ECEB /* Nest Protect Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808DBD7822A4EDB00042ECEB /* Build configuration list for PBXNativeTarget "Nest Protect Status" */;
+			buildPhases = (
+				808DBD5922A4EDAE0042ECEB /* Sources */,
+				808DBD5A22A4EDAE0042ECEB /* Frameworks */,
+				808DBD5B22A4EDAE0042ECEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nest Protect Status";
+			productName = "Nest Protect Status";
+			productReference = 808DBD5D22A4EDAE0042ECEB /* Nest Protect Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808DBD6E22A4EDB00042ECEB /* Nest Protect StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808DBD7B22A4EDB00042ECEB /* Build configuration list for PBXNativeTarget "Nest Protect StatusTests" */;
+			buildPhases = (
+				808DBD6B22A4EDB00042ECEB /* Sources */,
+				808DBD6C22A4EDB00042ECEB /* Frameworks */,
+				808DBD6D22A4EDB00042ECEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808DBD7122A4EDB00042ECEB /* PBXTargetDependency */,
+			);
+			name = "Nest Protect StatusTests";
+			productName = "Nest Protect StatusTests";
+			productReference = 808DBD6F22A4EDB00042ECEB /* Nest Protect StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808DBD5522A4EDAE0042ECEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Onderweg.eu";
+				TargetAttributes = {
+					808DBD5C22A4EDAE0042ECEB = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					808DBD6E22A4EDB00042ECEB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 808DBD5C22A4EDAE0042ECEB;
+					};
+				};
+			};
+			buildConfigurationList = 808DBD5822A4EDAE0042ECEB /* Build configuration list for PBXProject "Nest Protect Status" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808DBD5422A4EDAE0042ECEB;
+			productRefGroup = 808DBD5E22A4EDAE0042ECEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808DBD5C22A4EDAE0042ECEB /* Nest Protect Status */,
+				808DBD6E22A4EDB00042ECEB /* Nest Protect StatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808DBD5B22A4EDAE0042ECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808DBD6522A4EDB00042ECEB /* Assets.xcassets in Resources */,
+				808DBD6822A4EDB00042ECEB /* Main.storyboard in Resources */,
+				6FC0890122A8572D00D5E382 /* NestStatusViewItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808DBD6D22A4EDB00042ECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808DBD5922A4EDAE0042ECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808DBD6322A4EDAE0042ECEB /* ViewController.swift in Sources */,
+				6FC0890022A8572D00D5E382 /* NestStatusViewItem.swift in Sources */,
+				80D3678422A63A1B003CD4B0 /* NestApiClient.swift in Sources */,
+				808DBD6122A4EDAE0042ECEB /* AppDelegate.swift in Sources */,
+				6FC088FD22A6FA7800D5E382 /* Extensions.swift in Sources */,
+				80E0B59422A8E800000E90C8 /* Alerts.swift in Sources */,
+				808DBD7F22A4EE3C0042ECEB /* NestStatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808DBD6B22A4EDB00042ECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808DBD7422A4EDB00042ECEB /* Nest_Protect_StatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808DBD7122A4EDB00042ECEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808DBD5C22A4EDAE0042ECEB /* Nest Protect Status */;
+			targetProxy = 808DBD7022A4EDB00042ECEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		808DBD6622A4EDB00042ECEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808DBD6722A4EDB00042ECEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808DBD7622A4EDB00042ECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		808DBD7722A4EDB00042ECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		808DBD7922A4EDB00042ECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nest Protect Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.onderweg.Nest-Protect-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		808DBD7A22A4EDB00042ECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nest Protect Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.onderweg.Nest-Protect-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		808DBD7C22A4EDB00042ECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nest Protect StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.onderweg.Nest-Protect-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nest Protect Status.app/Contents/MacOS/Nest Protect Status";
+			};
+			name = Debug;
+		};
+		808DBD7D22A4EDB00042ECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nest Protect StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.onderweg.Nest-Protect-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nest Protect Status.app/Contents/MacOS/Nest Protect Status";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808DBD5822A4EDAE0042ECEB /* Build configuration list for PBXProject "Nest Protect Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808DBD7622A4EDB00042ECEB /* Debug */,
+				808DBD7722A4EDB00042ECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808DBD7822A4EDB00042ECEB /* Build configuration list for PBXNativeTarget "Nest Protect Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808DBD7922A4EDB00042ECEB /* Debug */,
+				808DBD7A22A4EDB00042ECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808DBD7B22A4EDB00042ECEB /* Build configuration list for PBXNativeTarget "Nest Protect StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808DBD7C22A4EDB00042ECEB /* Debug */,
+				808DBD7D22A4EDB00042ECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 808DBD5522A4EDAE0042ECEB /* Project object */;
+}
