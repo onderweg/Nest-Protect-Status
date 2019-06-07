@@ -5,6 +5,8 @@ macOS app that shows color ring status of Nest Protect devices in your Nest acco
 This program has been created as a way to explore the Nest API and work with Swift as a developer. It is by no means
 a finished app for regular end users.
 
+<img src="screenshot.png" width=300 />
+
 ## Important notice
 
 ⚠ The Nest API - which this software is based on - will stop working on [August 31, 2019](https://nest.com/whats-happening/#im-a-works-with-nest-developer-will-my-solution-still-be-able-to-access-and-control-nest-devices):
@@ -14,9 +16,9 @@ We encourage all smart home developers to visit the Actions on Google Smart Home
 
 ## Use
 
-The program communicates with the Nest API, which requires a OAuth access Key. Read in Nest API docs [how to generate an access key](https://developers.nest.com/guides/api/how-to-auth).
+The program communicates with the Nest API, which requires a OAuth access Key. Read in the Nest API docs [how to generate an access key](https://developers.nest.com/guides/api/how-to-auth).
 
-After you generated an access key, set environment variabele `NEST_ACCESS_KEY` to the value of your access key pefore running the program.
+After you generated an access key, set environment variabele `NEST_ACCESS_KEY` to the value of your access key before running the program.
 
 ## Credits
 

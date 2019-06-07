@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F6E051322AA8BB700462E35 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6F6E051222AA8BB700462E35 /* .gitignore */; };
+		6F6E051522AA8D1F00462E35 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6E051422AA8D1F00462E35 /* screenshot.png */; };
 		6FC088FD22A6FA7800D5E382 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC088FC22A6FA7800D5E382 /* Extensions.swift */; };
 		6FC0890022A8572D00D5E382 /* NestStatusViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC088FE22A8572D00D5E382 /* NestStatusViewItem.swift */; };
 		6FC0890122A8572D00D5E382 /* NestStatusViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC088FF22A8572D00D5E382 /* NestStatusViewItem.xib */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		6F6E051222AA8BB700462E35 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6F6E051422AA8D1F00462E35 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		6FC088FC22A6FA7800D5E382 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6FC088FE22A8572D00D5E382 /* NestStatusViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestStatusViewItem.swift; sourceTree = "<group>"; };
 		6FC088FF22A8572D00D5E382 /* NestStatusViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestStatusViewItem.xib; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		808DBD5422A4EDAE0042ECEB = {
 			isa = PBXGroup;
 			children = (
+				6F6E051422AA8D1F00462E35 /* screenshot.png */,
 				6F6E051222AA8BB700462E35 /* .gitignore */,
 				80E0B59022A8DEEB000E90C8 /* readme.md */,
 				808DBD5F22A4EDAE0042ECEB /* Nest Protect Status */,
@@ -226,6 +229,7 @@
 				808DBD6522A4EDB00042ECEB /* Assets.xcassets in Resources */,
 				808DBD6822A4EDB00042ECEB /* Main.storyboard in Resources */,
 				6FC0890122A8572D00D5E382 /* NestStatusViewItem.xib in Resources */,
+				6F6E051522AA8D1F00462E35 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
