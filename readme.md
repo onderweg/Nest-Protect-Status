@@ -20,6 +20,14 @@ The program communicates with the Nest API, which requires a OAuth access Key. R
 
 After you generated an access key, set environment variabele `NEST_ACCESS_KEY` to the value of your access key before running the program.
 
+For convenience, you can set the `NEST_ACCESS_KEY` variable in a `.env` file that will be loaded in to the environment when the program starts. 
+
+Create a file in user home directory: `~/.nest-protect-status.env` in which you set the environment variable:
+
+```
+NEST_ACCESS_KEY=XXXXXXXXXXXXXXXX
+```
+
 ## Credits
 
 - Application icon by [Vectto](https://www.iconfinder.com/icons/2335590/home_home_page_house_profile_icon). License: (CC BY 3.0).

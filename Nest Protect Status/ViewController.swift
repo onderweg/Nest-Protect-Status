@@ -16,11 +16,17 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        dotenv()
         configureCollectionView()
         setupMessage()
         setTimer()
         getDevices()
+    }
+    
+    private func dotenv() {
+        let env_file =  NSString("~/.nest-protect-status.env").expandingTildeInPath;
+        let env_file_c = UnsafeMutablePointer<Int8>(mutating: (env_file as NSString).utf8String)
+        env_load(env_file_c, false)
     }
     
     private func setTimer() {

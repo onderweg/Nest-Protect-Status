@@ -13,6 +13,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.titleVisibility = .hidden
         window.styleMask.insert(NSWindow.StyleMask.fullSizeContentView)
     }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
