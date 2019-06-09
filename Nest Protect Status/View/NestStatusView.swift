@@ -20,6 +20,24 @@ class NestStatusView: NSView {
     
     @IBInspectable var deviceName = "Device 1"
     
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        commonInit()
+    }
+    
+    func commonInit() {
+        self.wantsLayer = true
+        self.shadow = NSShadow()
+        self.layer?.shadowOffset = CGSize(width: 2, height: 2)
+        self.layer?.shadowRadius = 5
+        self.layer?.masksToBounds = false
+    }
+    
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)       
         let context = NSGraphicsContext.current?.cgContext
@@ -30,11 +48,23 @@ class NestStatusView: NSView {
     func getStateColor() -> CGColor {
         switch (colorState) {
         case .Red:
-            return NSColor.red.cgColor
+            return CGColor(
+                red: 210/255,
+                green: 80/255,
+                blue: 58/255,
+                alpha: 1)
         case .Yellow:
-            return NSColor.yellow.cgColor
+            return CGColor(
+                red: 248/255,
+                green: 204/255,
+                blue: 70/255,
+                alpha: 1)
         case .Green:
-            return CGColor(red: 128/256, green: 238/256, blue: 111/256, alpha: 1)
+            return CGColor(
+                red: 128/255,
+                green: 238/255,
+                blue: 111/255,
+                alpha: 1)
         case .Gray:
             return NSColor.gray.cgColor
         }
@@ -68,7 +98,7 @@ class NestStatusView: NSView {
         let nameTextAttributes = [
             NSAttributedString.Key.font: NSFont(name: "Helvetica", size: 0.08 * rect.height),
             NSAttributedString.Key.paragraphStyle: paragraphStyle,
-            NSAttributedString.Key.foregroundColor: NSColor.labelColor
+            NSAttributedString.Key.foregroundColor: NSColor.secondaryLabelColor
         ]
         drawVerticallyCentered(str: text, in: rect, withAttributes: nameTextAttributes as [NSAttributedString.Key : Any])
     }

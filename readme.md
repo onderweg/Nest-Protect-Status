@@ -16,7 +16,11 @@ We encourage all smart home developers to visit the Actions on Google Smart Home
 
 ## Use
 
-The program communicates with the Nest API, which requires a OAuth access Key. Read in the Nest API docs [how to generate an access key](https://developers.nest.com/guides/api/how-to-auth).
+### Authentication
+
+The program communicates with the Nest API, which requires a OAuth access Key. To use the Nest API, a Nest Developer account is required. If you don't have one yet, you're out of luck: Nest developer program shuts down on August 31, 2019, and signing up for a new account is possible.
+
+Read in the Nest API docs [how to generate an access key](https://developers.nest.com/guides/api/how-to-auth). You can also use a tool, such as the [Runscope OAuth2 Token Generator](https://www.runscope.com/oauth2_tool), to generate an access token.
 
 After you generated an access key, set environment variabele `NEST_ACCESS_KEY` to the value of your access key before running the program.
 

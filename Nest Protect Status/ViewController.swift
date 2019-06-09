@@ -16,6 +16,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         dotenv()
         configureCollectionView()
         setupMessage()
@@ -45,7 +46,6 @@ class ViewController: NSViewController {
         client.getProtectDevices() { (result: Result<NestDevices, RESTError>) in
             switch result {
             case .success(let devices):
-                print(devices)
                 self.devices = Array(devices.values)
                 break;
             case .failure(let error):
