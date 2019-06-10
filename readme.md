@@ -1,6 +1,6 @@
 # Nest Protect Status
 
-macOS app that shows color ring status of Nest Protect devices in your Nest account.
+Minimalistic macOS app that shows color ring status of Nest Protect devices in your Nest account.
 
 This program has been created as a way to explore the Nest API and work with Swift as a developer. It is by no means
 a finished app for regular end users.

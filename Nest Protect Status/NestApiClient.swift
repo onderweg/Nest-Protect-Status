@@ -94,6 +94,7 @@ class NestApiClient {
                 }
                 
                 let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .formatted(DateFormatter.iso8601Full)
                 do {
                     let decoded = try decoder.decode(T.self, from: data)
                     callback(.success(decoded))
