@@ -7,7 +7,7 @@ import Foundation
 typealias NestDevices = [String: NestDevice]
 
 // Note: assigning default values to properties won't work:
-// it wont get value from JSON, because property is immutable and already has a value set.
+// it won't get value from JSON, because property is immutable and already has a value set.
 // See: https://forums.swift.org/t/revisit-synthesized-init-from-decoder-for-structs-with-default-property-values/12296/2
 struct NestDevice : Decodable {
     let device_id: String

@@ -61,7 +61,7 @@ class ViewController: NSViewController {
     
     fileprivate func configureCollectionView() {
         let flowLayout = NSCollectionViewFlowLayout()
-        flowLayout.itemSize = NSSize(width: 200.00, height: 200.0)
+        flowLayout.itemSize = NSSize(width: 180.00, height: 180.0)
         flowLayout.sectionInset = NSEdgeInsets(top: 20.0, left: 20.0, bottom: 20.0, right: 20.0)
         flowLayout.minimumInteritemSpacing = 20.0
         flowLayout.minimumLineSpacing = 20.0
