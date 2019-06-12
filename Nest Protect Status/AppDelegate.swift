@@ -11,7 +11,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let window = NSApplication.shared.windows.first!
         window.titlebarAppearsTransparent = true
         window.titleVisibility = .hidden
-        window.styleMask.insert(NSWindow.StyleMask.fullSizeContentView)
+        window.styleMask.insert(NSWindow.StyleMask.fullSizeContentView)        
     }
     
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {

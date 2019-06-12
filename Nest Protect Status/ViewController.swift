@@ -16,7 +16,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         dotenv()
         configureCollectionView()
         setupMessage()

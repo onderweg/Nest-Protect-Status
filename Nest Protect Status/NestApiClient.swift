@@ -19,7 +19,7 @@ struct NestDevice : Decodable {
     let co_alarm_state: String // "ok", "warning", "emergency"
     let smoke_alarm_state: String // "ok", "warning", "emergency"
     let is_manual_test_active: Bool
-    let last_connection: String
+    let last_connection: Date
 }
 
 extension URLSession {

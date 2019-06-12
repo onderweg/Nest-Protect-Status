@@ -27,7 +27,7 @@ class NestStatusViewItem: NSCollectionViewItem {
             "CO Alarm: \(device.co_alarm_state)",
             "Smoke Alarm: \(device.smoke_alarm_state)",
             "Online: \(device.is_online ? "yes" : "no")",
-            "Last connection: \(device.last_connection)"
+            "Last connection: \(device.last_connection.friendlyFormat())"
             ].joined(separator: "\n")
     }
     
