@@ -59,6 +59,10 @@ class ViewController: NSViewController {
         }
     }
     
+    @IBAction func refresh(_ sender: Any) {
+        getDevices()
+    }
+    
     fileprivate func configureCollectionView() {
         let flowLayout = NSCollectionViewFlowLayout()
         flowLayout.itemSize = NSSize(width: 180.00, height: 180.0)

@@ -71,6 +71,11 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="View" id="HyV-fh-RgO">
                                     <items>
+                                        <menuItem title="Refresh" keyEquivalent="r" id="qIU-S6-qwT">
+                                            <connections>
+                                                <action selector="refresh:" target="Ady-hI-5gd" id="8kr-ub-9aK"/>
+                                            </connections>
+                                        </menuItem>
                                         <menuItem title="Enter Full Screen" keyEquivalent="f" id="4J7-dP-txa">
                                             <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                             <connections>
