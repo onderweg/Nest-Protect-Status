@@ -75,6 +75,7 @@ class NestApiClient {
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("NestProtectStatus/1.0.0 (github.com/onderweg)", forHTTPHeaderField: "User-Agent")
         
         // @TODO: URLSession refuses to send "Authorization header
         // Using url parameter with acess key for now
