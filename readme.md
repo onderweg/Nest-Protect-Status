@@ -32,6 +32,7 @@ Create a file in user home directory: `~/.nest-protect-status.env` in which you 
 NEST_ACCESS_KEY=XXXXXXXXXXXXXXXX
 ```
 
-## Credits
+## Credits / Acknowledgements
 
 - Application icon by [Vectto](https://www.iconfinder.com/icons/2335590/home_home_page_house_profile_icon). License: (CC BY 3.0).
+- [dotenv for c](https://github.com/Isty001/dotenv-c) by Isty001
